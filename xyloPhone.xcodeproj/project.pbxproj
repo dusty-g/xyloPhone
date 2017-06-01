@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1A59D521EE09CAE0016F22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D511EE09CAE0016F22C /* AppDelegate.swift */; };
+		C1A59D541EE09CAE0016F22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D531EE09CAE0016F22C /* ViewController.swift */; };
+		C1A59D571EE09CAE0016F22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D551EE09CAE0016F22C /* Main.storyboard */; };
+		C1A59D591EE09CAE0016F22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D581EE09CAE0016F22C /* Assets.xcassets */; };
+		C1A59D5C1EE09CAE0016F22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D5A1EE09CAE0016F22C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1A59D4E1EE09CAE0016F22C /* xyloPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xyloPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A59D511EE09CAE0016F22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1A59D531EE09CAE0016F22C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1A59D561EE09CAE0016F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1A59D581EE09CAE0016F22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A59D5B1EE09CAE0016F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1A59D5D1EE09CAE0016F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A59D4B1EE09CAE0016F22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1A59D451EE09CAE0016F22C = {
+			isa = PBXGroup;
+			children = (
+				C1A59D501EE09CAE0016F22C /* xyloPhone */,
+				C1A59D4F1EE09CAE0016F22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A59D4F1EE09CAE0016F22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A59D4E1EE09CAE0016F22C /* xyloPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A59D501EE09CAE0016F22C /* xyloPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C1A59D511EE09CAE0016F22C /* AppDelegate.swift */,
+				C1A59D531EE09CAE0016F22C /* ViewController.swift */,
+				C1A59D551EE09CAE0016F22C /* Main.storyboard */,
+				C1A59D581EE09CAE0016F22C /* Assets.xcassets */,
+				C1A59D5A1EE09CAE0016F22C /* LaunchScreen.storyboard */,
+				C1A59D5D1EE09CAE0016F22C /* Info.plist */,
+			);
+			path = xyloPhone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A59D4D1EE09CAE0016F22C /* xyloPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A59D601EE09CAE0016F22C /* Build configuration list for PBXNativeTarget "xyloPhone" */;
+			buildPhases = (
+				C1A59D4A1EE09CAE0016F22C /* Sources */,
+				C1A59D4B1EE09CAE0016F22C /* Frameworks */,
+				C1A59D4C1EE09CAE0016F22C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xyloPhone;
+			productName = xyloPhone;
+			productReference = C1A59D4E1EE09CAE0016F22C /* xyloPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A59D461EE09CAE0016F22C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dustin Galindo";
+				TargetAttributes = {
+					C1A59D4D1EE09CAE0016F22C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RVX28FPJ5M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1A59D491EE09CAE0016F22C /* Build configuration list for PBXProject "xyloPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A59D451EE09CAE0016F22C;
+			productRefGroup = C1A59D4F1EE09CAE0016F22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A59D4D1EE09CAE0016F22C /* xyloPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A59D4C1EE09CAE0016F22C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A59D5C1EE09CAE0016F22C /* LaunchScreen.storyboard in Resources */,
+				C1A59D591EE09CAE0016F22C /* Assets.xcassets in Resources */,
+				C1A59D571EE09CAE0016F22C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A59D4A1EE09CAE0016F22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A59D541EE09CAE0016F22C /* ViewController.swift in Sources */,
+				C1A59D521EE09CAE0016F22C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1A59D551EE09CAE0016F22C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A59D561EE09CAE0016F22C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1A59D5A1EE09CAE0016F22C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A59D5B1EE09CAE0016F22C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1A59D5E1EE09CAE0016F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1A59D5F1EE09CAE0016F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A59D611EE09CAE0016F22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVX28FPJ5M;
+				INFOPLIST_FILE = xyloPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dustingalindo.xyloPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1A59D621EE09CAE0016F22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVX28FPJ5M;
+				INFOPLIST_FILE = xyloPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dustingalindo.xyloPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A59D491EE09CAE0016F22C /* Build configuration list for PBXProject "xyloPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A59D5E1EE09CAE0016F22C /* Debug */,
+				C1A59D5F1EE09CAE0016F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A59D601EE09CAE0016F22C /* Build configuration list for PBXNativeTarget "xyloPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A59D611EE09CAE0016F22C /* Debug */,
+				C1A59D621EE09CAE0016F22C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A59D461EE09CAE0016F22C /* Project object */;
+}
