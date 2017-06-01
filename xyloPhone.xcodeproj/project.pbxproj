@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33E77BCFDB8E49430B2E8C70 /* Pods_xyloPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1674B18C4D8FDFBF68C62EA0 /* Pods_xyloPhone.framework */; };
 		C1A59D521EE09CAE0016F22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D511EE09CAE0016F22C /* AppDelegate.swift */; };
-		C1A59D541EE09CAE0016F22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D531EE09CAE0016F22C /* ViewController.swift */; };
 		C1A59D571EE09CAE0016F22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D551EE09CAE0016F22C /* Main.storyboard */; };
 		C1A59D591EE09CAE0016F22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D581EE09CAE0016F22C /* Assets.xcassets */; };
 		C1A59D5C1EE09CAE0016F22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D5A1EE09CAE0016F22C /* LaunchScreen.storyboard */; };
+		C1A59D641EE09CE10016F22C /* XyloPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D631EE09CE10016F22C /* XyloPhoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1674B18C4D8FDFBF68C62EA0 /* Pods_xyloPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xyloPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A2AC61DDAF0726CA51C249 /* Pods-xyloPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyloPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		6C75919BEB7B289A02B1E9D1 /* Pods-xyloPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyloPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone.release.xcconfig"; sourceTree = "<group>"; };
 		C1A59D4E1EE09CAE0016F22C /* xyloPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xyloPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A59D511EE09CAE0016F22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1A59D531EE09CAE0016F22C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1A59D561EE09CAE0016F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1A59D581EE09CAE0016F22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A59D5B1EE09CAE0016F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A59D5D1EE09CAE0016F22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A59D631EE09CE10016F22C /* XyloPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XyloPhoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E77BCFDB8E49430B2E8C70 /* Pods_xyloPhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F972E8BFAC9A23BCA31F33E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62A2AC61DDAF0726CA51C249 /* Pods-xyloPhone.debug.xcconfig */,
+				6C75919BEB7B289A02B1E9D1 /* Pods-xyloPhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1A59D451EE09CAE0016F22C = {
 			isa = PBXGroup;
 			children = (
 				C1A59D501EE09CAE0016F22C /* xyloPhone */,
 				C1A59D4F1EE09CAE0016F22C /* Products */,
+				5F972E8BFAC9A23BCA31F33E /* Pods */,
+				ECDBBD9934B02A312A97EACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,21 @@
 			isa = PBXGroup;
 			children = (
 				C1A59D511EE09CAE0016F22C /* AppDelegate.swift */,
-				C1A59D531EE09CAE0016F22C /* ViewController.swift */,
 				C1A59D551EE09CAE0016F22C /* Main.storyboard */,
+				C1A59D631EE09CE10016F22C /* XyloPhoneViewController.swift */,
 				C1A59D581EE09CAE0016F22C /* Assets.xcassets */,
 				C1A59D5A1EE09CAE0016F22C /* LaunchScreen.storyboard */,
 				C1A59D5D1EE09CAE0016F22C /* Info.plist */,
 			);
 			path = xyloPhone;
+			sourceTree = "<group>";
+		};
+		ECDBBD9934B02A312A97EACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1674B18C4D8FDFBF68C62EA0 /* Pods_xyloPhone.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1A59D601EE09CAE0016F22C /* Build configuration list for PBXNativeTarget "xyloPhone" */;
 			buildPhases = (
+				1D121EDEC3E32B246E25B4E5 /* [CP] Check Pods Manifest.lock */,
 				C1A59D4A1EE09CAE0016F22C /* Sources */,
 				C1A59D4B1EE09CAE0016F22C /* Frameworks */,
 				C1A59D4C1EE09CAE0016F22C /* Resources */,
+				60CC85DDA6ADA0AA4B020143 /* [CP] Embed Pods Frameworks */,
+				44FB573D9E40A8F89608CCB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +159,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D121EDEC3E32B246E25B4E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44FB573D9E40A8F89608CCB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CC85DDA6ADA0AA4B020143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1A59D4A1EE09CAE0016F22C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A59D541EE09CAE0016F22C /* ViewController.swift in Sources */,
 				C1A59D521EE09CAE0016F22C /* AppDelegate.swift in Sources */,
+				C1A59D641EE09CE10016F22C /* XyloPhoneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +334,7 @@
 		};
 		C1A59D611EE09CAE0016F22C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A2AC61DDAF0726CA51C249 /* Pods-xyloPhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RVX28FPJ5M;
@@ -272,6 +348,7 @@
 		};
 		C1A59D621EE09CAE0016F22C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C75919BEB7B289A02B1E9D1 /* Pods-xyloPhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RVX28FPJ5M;
