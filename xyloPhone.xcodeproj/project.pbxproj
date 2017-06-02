@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33E77BCFDB8E49430B2E8C70 /* Pods_xyloPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1674B18C4D8FDFBF68C62EA0 /* Pods_xyloPhone.framework */; };
+		C11E78521EE1B7A0006AC85B /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = C11E78511EE1B7A0006AC85B /* rainbow.png */; };
 		C1A59D521EE09CAE0016F22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A59D511EE09CAE0016F22C /* AppDelegate.swift */; };
 		C1A59D571EE09CAE0016F22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D551EE09CAE0016F22C /* Main.storyboard */; };
 		C1A59D591EE09CAE0016F22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A59D581EE09CAE0016F22C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		1674B18C4D8FDFBF68C62EA0 /* Pods_xyloPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xyloPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A2AC61DDAF0726CA51C249 /* Pods-xyloPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyloPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone.debug.xcconfig"; sourceTree = "<group>"; };
 		6C75919BEB7B289A02B1E9D1 /* Pods-xyloPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xyloPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-xyloPhone/Pods-xyloPhone.release.xcconfig"; sourceTree = "<group>"; };
+		C11E78511EE1B7A0006AC85B /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = "<group>"; };
 		C1A59D4E1EE09CAE0016F22C /* xyloPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xyloPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A59D511EE09CAE0016F22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1A59D561EE09CAE0016F22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		C1A59D451EE09CAE0016F22C = {
 			isa = PBXGroup;
 			children = (
+				C11E78511EE1B7A0006AC85B /* rainbow.png */,
 				C1A59D501EE09CAE0016F22C /* xyloPhone */,
 				C1A59D4F1EE09CAE0016F22C /* Products */,
 				5F972E8BFAC9A23BCA31F33E /* Pods */,
@@ -151,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11E78521EE1B7A0006AC85B /* rainbow.png in Resources */,
 				C1A59D5C1EE09CAE0016F22C /* LaunchScreen.storyboard in Resources */,
 				C1A59D591EE09CAE0016F22C /* Assets.xcassets in Resources */,
 				C1A59D571EE09CAE0016F22C /* Main.storyboard in Resources */,
@@ -379,6 +383,7 @@
 				C1A59D621EE09CAE0016F22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

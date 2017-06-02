@@ -15,6 +15,8 @@ import AudioKit
 class XyliPhoneViewController: UIViewController {
     let 🤵 = CMMotionManager()
     let 🚦 = OperationQueue()
+    
+    @IBOutlet weak var imageView: UIImageView!
     var 🎹 = 60
     var notesArray = [MIDINoteNumber]()
     var noteLetters = ["C", "D", "E", "F", "G", "A", "B", "C"]
@@ -60,19 +62,26 @@ class XyliPhoneViewController: UIViewController {
             }
             var note = 0
             
-            if 📒!.attitude.roll >= Double.pi/2.0{
+            if 📒!.attitude.roll >= 7*Double.pi/16{
                 note = 0
-            }else if 📒!.attitude.roll <= -Double.pi/2.0{
+            }else if 📒!.attitude.roll <= -7*Double.pi/16{
                 note = 7
             }else{
-                note = self.notesArray.count - Int(ceil((((📒!.attitude.roll - -Double.pi/2) * 8.0) / Double.pi)))
+                //scale -pi/2, pi/2 to -2239, 2239
+                let newCenter = (((📒!.attitude.roll - -7*Double.pi/16) * 4478)/(7*Double.pi/8)) + -2239
+                
+                
+                DispatchQueue.main.async {
+                    self.imageView.center.x = CGFloat(newCenter)
+                }
+                note = 8 - Int(ceil((((📒!.attitude.roll - -Double.pi/2) * 8.0) / Double.pi)))
             }
             DispatchQueue.main.async {
-                self.backgroundLabel.backgroundColor = self.noteColors[note]
+                
                 self.noteTextLabel.text = self.noteLetters[note]
             }
             
-            print(📒!.attitude.roll,self.notesArray.count - Int(ceil((((📒!.attitude.roll - -Double.pi/2) * 8.0) / Double.pi))))
+//            print(📒!.attitude.roll,self.notesArray.count - Int(ceil((((📒!.attitude.roll - -Double.pi/2) * 8.0) / Double.pi))))
             
             if 📒!.userAcceleration.z < -1.2 {
                 
