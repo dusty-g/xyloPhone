@@ -24,6 +24,7 @@ class XyliPhoneViewController: UIViewController {
     
     @IBOutlet weak var noteTextLabel: UILabel!
     
+    @IBOutlet weak var imageViewLabel: UIImageView!
     @IBAction func buttonPressedDown(_ sender: UIButton) {
         🏦.play(noteNumber: 60, velocity: 80)
     }
@@ -38,8 +39,16 @@ class XyliPhoneViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        noteTextLabel.layer.zPosition = 1
         AudioKit.output = 🏦
         AudioKit.start()
+        let min = CGFloat(-1500)
+        let max = CGFloat(1500)
+        
+        let xMotion = UIInterpolatingMotionEffect(keyPath: "layer.transform.translation.x", type: .tiltAlongHorizontalAxis)
+        xMotion.minimumRelativeValue = min
+        xMotion.maximumRelativeValue = max
+        imageViewLabel.addMotionEffect(xMotion)
         
         for index in 0..<8{
             switch index {

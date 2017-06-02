@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mSi-09-rMj">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,15 @@
                         <viewControllerLayoutGuide type="bottom" id="UcI-16-y6M"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ab0-Lq-caI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rainbow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fsa-2f-fWD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99H-EH-Tf7">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="16" y="20" width="288" height="548"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
                                 <color key="textColor" red="0.73824159263959399" green="0.73824159263959399" blue="0.73824159263959399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -39,12 +43,16 @@
                     </view>
                     <connections>
                         <outlet property="backgroundLabel" destination="ab0-Lq-caI" id="xTK-zk-Vz5"/>
+                        <outlet property="imageViewLabel" destination="Fsa-2f-fWD" id="Hjl-69-JNL"/>
                         <outlet property="noteTextLabel" destination="99H-EH-Tf7" id="qmI-sF-ryg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VuZ-cV-hhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="116"/>
+            <point key="canvasLocation" x="31.875" y="115.14084507042254"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rainbow.png" width="5000" height="1138"/>
+    </resources>
 </document>
